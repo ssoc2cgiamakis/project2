@@ -4,10 +4,10 @@ function areaRectangle(){
     
     if (width > 0 & height > 0) {
         var area = width * height;
-        var result = "Area: " + area;
+        var result = "Area: " + area + '&#13217';
         document.getElementById("output").innerHTML = result; 
     } else {
-        var result = 'Put positive values to width and height, excluding zeros';
+        var result = 'Put positive values to width and height, excluding zeros.';
         document.getElementById("output").innerHTML = result;
     }
 
