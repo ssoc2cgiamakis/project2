@@ -7,7 +7,8 @@ function areaRectangle(){
         var result = "Area: " + area;
         document.getElementById("output").innerHTML = result; 
     } else {
-        
+        var result = 'Put positive values to width and height, excluding zeros';
+        document.getElementById("output").innerHTML = result;
     }
 
   }
