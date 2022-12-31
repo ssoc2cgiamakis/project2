@@ -1,13 +1,13 @@
 function areaRectangle(){
     var width  = document.getElementById("width").value;
-    var height = document.getElementById("height").value;
+    var length = document.getElementById("length").value;
     
-    if (width > 0 & height > 0) {
-        var area = width * height;
+    if (width > 0 & length > 0) {
+        var area = width * length;
         var result = "Area: " + area + '&#13217';
         document.getElementById("output").innerHTML = result; 
     } else {
-        var result = 'Put positive values to width and height, excluding zeros.';
+        var result = 'Put positive values to width and length, excluding zeros.';
         document.getElementById("output").innerHTML = result;
     }
 
