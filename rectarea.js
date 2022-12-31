@@ -7,8 +7,7 @@ function areaRectangle(){
         var result = "Area: " + area + '&#13217';
         document.getElementById("output").innerHTML = result; 
     } else {
-        var result = 'Put positive values to width and length, excluding zeros.';
-        document.getElementById("output").innerHTML = result;
+        alert('Put positive values to width and length, excluding zeros.');
     }
 
   }
